@@ -4,7 +4,11 @@
             "path": "."
         }
     ],
-    "settings": {},
+    "settings": {
+        "black-formatter.interpreter": [
+            "python"
+        ]
+    },
     "launch": {
         "version": "0.2.0",
         "configurations": [],
