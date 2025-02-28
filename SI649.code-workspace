@@ -10,7 +10,15 @@
         ],
         "workbench.colorTheme": "Quiet Light",
         "window.autoDetectColorScheme": true,
-        "workbench.preferredDarkColorTheme": "Quiet Light"
+        "workbench.preferredDarkColorTheme": "Quiet Light",
+        "python.defaultInterpreterPath": "python",
+        "black-formatter.args": [
+            "--preview",
+            "--line-length=100"
+        ],
+        "black-formatter.path": [
+            "black"
+        ]
     },
     "launch": {
         "version": "0.2.0",
