@@ -7,7 +7,10 @@
     "settings": {
         "black-formatter.interpreter": [
             "python"
-        ]
+        ],
+        "workbench.colorTheme": "Quiet Light",
+        "window.autoDetectColorScheme": true,
+        "workbench.preferredDarkColorTheme": "Quiet Light"
     },
     "launch": {
         "version": "0.2.0",
