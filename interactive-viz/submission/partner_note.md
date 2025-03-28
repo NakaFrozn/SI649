@@ -1,0 +1,8 @@
+# Static viz discussion note
+
+Jonas Zhonghan Xie  
+Discussion partner: Ruoyi Gao.
+
+1. **Some axes should be well labelled**. For example, in the scatterplot of proficiency rate and neighborhood income, the x-axis should be labelled as something like neighborhood median income. My partner was confused by the plot at the first sight. I original thought is that the title has indicated that the chart is visualizing the bivariate relationship between neighborhood income and school proficiency rate. The readers can infer the meaning of axes from the title. But the graph reduces cognitive load.
+2. **Some of the text is hard to read**, because of the size and the use of grey color. Also in the NYC public school map, some circles are darker red while some are light. That is because I also use the opacity encoding for the average proficiency rate. So that the high-performing schools are highlighted. I wanted to save some data-ink so I did not add a legend for the opacity encoding. Also, Ruoyi thought the circles are too small. It is somehow hard to read the map. It is always tricky to clearly visualize locations of DOIs. I will expand on how I dealt with it in my following revision.
+3. **More flexibility**: it is specifically for the scatter plot. I set the top-performing and bottom schools as top 10% and bottom 10%. Ruoyi suggested that we should let user to make the decision on the threshold. It is reflected in my interactive version.
